@@ -63,5 +63,27 @@ body{
 
 hr{
     border: 1px solid hsl(215, 32%, 27%);
-    margin: 1em;
+    margin: 1em 0em;
+}
+
+.item-creator{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.item-creator img{
+    border-radius: 100%;
+    border: 2px solid white;
+    width: 2em;
+}
+
+.item-creator p{
+    margin: 0;
+    display: inline-block;
+}
+
+.item-creator p b{
+    color: white;
+    font-weight: 300;
 }
